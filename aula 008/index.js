@@ -12,7 +12,7 @@ const arredondar = Number (imc.toFixed(2));
 
 // template strings
 
-console.log(`${nome} ${sobrenome} tem ${idade} anos pesa ${peso} kg tem ${alturaem}  m e seu imc é de ${arredondar} nome  sobrenome nasceu em: ${anoNascimento}`);
+console.log(`${nome} ${sobrenome} tem ${idade} anos pesa ${peso} kg tem ${alturaem} m e seu imc é de ${arredondar} nome  sobrenome nasceu em: ${anoNascimento}`);
 
 
 /*console.log(nome, sobrenome, 'tem', idade, 'anos pesa', peso +'kg tem', alturaem + 'm e seu imc é de', arredondar, nome, sobrenome, 'nasceu em:', anoNascimento);*/

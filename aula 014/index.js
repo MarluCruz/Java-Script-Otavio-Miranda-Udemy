@@ -19,7 +19,7 @@ console.log(num3.toFixed(2));
  let num5 = 0.1; //number
 
  console.log(num4 + num5);
- console.log(((num4 * 100) + (num5 * 100) )/ 100); // the hard way???
+ console.log(((num4 * 100) + (num5 * 100) )/ 100); // Is that the hard way???
  num4 += num5; // num1 = num1 + num2 = 0.8
  num4 += num5; // 0.9
  num4 += num5; // 1.00

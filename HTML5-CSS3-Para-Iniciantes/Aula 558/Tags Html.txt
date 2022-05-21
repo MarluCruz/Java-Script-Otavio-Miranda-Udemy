@@ -1,0 +1,1 @@
+Tag <hr> Separa os paragráfos com uma linha

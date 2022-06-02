@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+div#One{
+    background-color: red;
+    height: 100vh;
+}
+div#Two{
+    background-color: green;
+    height: 100vh;
+}
+div#Three{
+    background-color: blue;
+    height: 100vh;
+}

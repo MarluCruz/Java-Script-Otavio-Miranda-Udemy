@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        *{
+            margin: 2px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .pai{
+            display: flex;
+            background-color: yellow;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: stretch;
+            gap: 40px 40px;
+
+            width: 75%;
+            height: 600px;
+            margin: auto;
+        }
+        .filho{
+            display: flex;
+            background-color: red;
+        }
+        #primeiro{
+            order: 2;
+            flex-grow: 2;
+        }
+
+    </style>
+</head>
+<body>
+    <Div class="pai">
+        <div class="filho" id="primeiro">Primeiro</div>
+        <div class="filho" id="">Segundo</div>
+        <div class="filho">Terceiro</div>
+        <div class="filho">Quarto</div>
+        <div class="filho">Quinto</div>
+        <div class="filho">Sexto</div>
+        <div class="filho">Sétimo</div>
+        <div class="filho">oitovo</div>
+        <div class="filho">décimo</div>
+        <div class="filho">décimo-primeiro</div>
+        <div class="filho">décimo-segundo</div>
+        <div class="filho">décimo-terceio</div>
+        <div class="filho">décimo-quarto</div>
+        <div class="filho">décimo-quinto</div>
+        <div class="filho">décimo-sexto</div>
+        <div class="filho">décimo-sétimo</div>
+        <div class="filho">décimo-oitavo</div>
+        <div class="filho">décimo-nono</div>
+        <div class="filho">vigésimo</div>
+        <div class="filho">vigésimo-primeiro</div>
+    </Div>
+</body>
+</html>
